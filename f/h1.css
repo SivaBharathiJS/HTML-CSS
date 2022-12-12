@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: rgb(30, 26, 46);
+    display: flex;
+    height: 80px;
+    width: 100%;
+   position: fixed;
+   z-index: +1;
+}
+li{
+    margin: 10px;
+    list-style: none;
+    color: bisque;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li:hover{
+   box-shadow: 2px 3px 10px 0px whitesmoke;
+   border: 2px solid white;
+}
+body{
+    background-image: url(0-3821_cool-wallpaper-backgrounds-wooden-wall-funky-wallpaper-hd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d1{
+    background-color: rgba(0, 0, 0, 0.73);
+    width: 100%;
+    height: 200px;
+}
+.b1{
+    background-color: rgba(0, 0, 0, 0.097);
+    border:2px solid white ;
+    margin-top: 100px;
+    color: antiquewhite;
+    padding: 20px;
+    font-size: large;
+}
+.d2,.d3,.d4{
+    height: 650px;
+    width: 400px;
+    background-color: rgb(27, 8, 45);
+    position: absolute;
+    margin-top: 20px;
+}
+.d2{
+    margin-left: 50px;
+    padding: 25px;
+}
+.d3{
+    margin-left: 500px;
+}
+.d4{
+    margin-left: 950px;
+}
+.d21{
+    background-image: url(photo-1541963463532-d68292c34b19.jpg);
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+}
+.d22:hover{
+    background-color: rgba(0, 0, 0, 0.606);
+    color: blanchedalmond;
+    width: 350px;
+    height: 350px;
+}
+.d22{
+    height: 350px; width: 350px; background-color: rgba(176, 49, 49, 0); color: rgba(250, 235, 215, 0.007);
+}
+.cc{
+    background-color: greenyellow;
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    position: sticky;
+    top: 80px;
+}
